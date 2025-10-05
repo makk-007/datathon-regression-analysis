@@ -138,4 +138,4 @@ This project is licensed under the **MIT License** — feel free to use and adap
 
 ---
 
-### 🌱 “From data to insight — empowering sustainable innovation.”
+### 🌱 “From data to insight, empowering sustainable innovation.”
