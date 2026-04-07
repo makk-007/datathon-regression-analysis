@@ -5,7 +5,7 @@ from regression import regression_section
 # App Configuration
 # =============================
 st.set_page_config(
-    page_title="📈 Regression Analysis",
+    page_title="Regression Analysis",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -21,12 +21,6 @@ menu_options = {"🏠 Home": "Home", "📈 Regression": "Regression"}
 
 # Use Streamlit-native radio button for navigation
 section = st.sidebar.radio("🔍 Navigate to:", list(menu_options.keys()))
-
-# Highlight selected section title in the sidebar header
-if section == "🏠 Home":
-    st.sidebar.success("Home Page")
-elif section == "📈 Regression":
-    st.sidebar.success("Regression Page")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("👤 **By:** TerraTech")
